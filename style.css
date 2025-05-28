@@ -41,11 +41,14 @@ body {
 .content {
     position: relative;
     z-index: 15;
-    padding: 120vh 15vw 10vh;
-    max-width: 800px;
+    padding: 140vh 10vw 10vh;
+    max-width: 720px;
     margin: 0 auto;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 1s ease, transform 1s ease;
+    text-align: left;
 }
