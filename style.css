@@ -10,16 +10,19 @@ body {
     overflow-x: hidden;
 }
 
-.intro {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.fixed-logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    pointer-events: none;
 }
 
-.logo {
+.fixed-logo h1 {
     font-size: 6rem;
     color: white;
+    margin: 0;
     letter-spacing: 2px;
 }
 
@@ -32,12 +35,13 @@ body {
     background: black;
     opacity: 0;
     transition: opacity 1s ease;
-    pointer-events: none;
     z-index: 10;
 }
 
 .content {
-    padding: 10vh 15vw;
+    position: relative;
+    z-index: 15;
+    padding: 120vh 15vw 10vh;
     max-width: 800px;
     margin: 0 auto;
     font-size: 1.2rem;
