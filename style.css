@@ -17,6 +17,11 @@ body {
     transform: translate(-50%, -50%);
     z-index: 20;
     pointer-events: none;
+    transition: top 1s ease;
+}
+
+.fixed-logo.scrolled {
+    top: 15%;
 }
 
 .fixed-logo h1 {
