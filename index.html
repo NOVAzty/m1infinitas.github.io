@@ -2,34 +2,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <meta charset="UTF-8">
-    <title>M1∞ | Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M1∞ | Home</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+      font-family: 'Fira Sans', sans-serif;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    nav {
+      width: 80px;
+      background-color: rgba(255, 255, 255, 0.05);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      position: relative;
+    }
+
+    nav a {
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      position: relative;
+      transition: transform 0.3s ease;
+    }
+
+    nav a:hover::after {
+      content: '\1F409'; /* Unicode placeholder for Nebula/Tiger icon */
+      position: absolute;
+      right: -40px;
+      top: 0;
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+
+    main {
+      flex-grow: 1;
+      background: radial-gradient(ellipse at center, rgba(255,255,255,0.03) 0%, black 100%);
+      padding: 4vh 5vw;
+      overflow-y: auto;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      margin-top: 10vh;
+    }
+
+    section {
+      margin: 60px auto;
+      max-width: 800px;
+    }
+  </style>
 </head>
 <body>
-    <div class="fixed-logo">
-        <h1>M1∞</h1>
-    </div>
-    <div class="overlay" id="overlay"></div>
-    <div class="content" id="content">
-        <p>
-            M1∞ (M1 Infinitas) is a fluid, interdisciplinary art collective committed to dismantling boundaries between disciplines.
-            We work across various media and perspectives, fostering cross-disciplinary collaboration and experimental creation.
-        </p>
-        <p>
-            M1∞ emphasizes openness and generativity. Our members come from diverse backgrounds, including such as music, theater,
-            visual arts, industrial design, technology, and the humanities. Rather than following fixed frameworks, our projects
-            evolve dynamically around concepts, continuously shifting through the interplay of creation and research in response
-            to the progression of contemporary art and technology.
-        </p>
-        <p>
-            The collective engages with any topic worth exploring, unconstrained by medium, form, or domain. Our practice points
-            toward the possibility of rethinking—staying open in the process of constant emergence, embracing uncertainty, and
-            welcoming new narratives, perspectives, and collaborations as we explore the unknown edges together.
-        </p>
-    </div>
-    <script src="script.js"></script>
+  <nav>
+    <a href="index.html">About</a>
+    <a href="members.html">Members</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <h1>M1∞ Interdisciplinary Collective</h1>
+    <section>
+      <p>Welcome to the M1∞ official website. Use the sidebar to explore who we are, what we do, and how to reach us.</p>
+    </section>
+  </main>
 </body>
 </html>
+
