@@ -56,6 +56,15 @@ body {
     transition: opacity 1s ease, transform 1s ease;
     text-align: left;
 }
+
+.subtitle {
+  margin-left: 10vw;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-style: italic;
+  color: #ccc;
+}
+
 nav {
   position: fixed;
   top: 40%;
@@ -72,10 +81,3 @@ nav a {
   font-size: 1rem;
 }
 
-.subtitle {
-  margin-left: 10vw;
-  margin-top: 1rem;
-  font-size: 1rem;
-  font-style: italic;
-  color: #ccc;
-}
