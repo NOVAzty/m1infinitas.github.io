@@ -6,56 +6,68 @@
   <title>Members - M1∞</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <style>
+    @font-face {
+      font-family: 'Fivo Sans';
+      src: url('fonts/FivoSans-Regular.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Courier Custom';
+      src: local('Courier New'), monospace;
+    }
     body {
       margin: 0;
       padding: 2rem;
       background-color: black;
       color: white;
-      font-family: 'Courier New', monospace;
+      font-family: 'Fivo Sans', sans-serif;
     }
     nav {
       position: fixed;
-      top: 40%;
+      top: 35%;
       left: 2vw;
       display: flex;
       flex-direction: column;
-      gap: 1rem;
+      gap: 1.5rem;
+      font-size: 1.2rem;
     }
     nav a {
       color: white;
       text-decoration: none;
-      font-size: 1rem;
     }
     .page-title {
       margin-left: 10vw;
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
     .subtitle {
       margin-left: 10vw;
-      font-size: 1rem;
-      margin-bottom: 2rem;
+      font-size: 1.2rem;
+      margin-bottom: 3rem;
     }
     .members-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 2rem;
+      gap: 3rem 2rem;
       margin: 2rem 10vw;
     }
     .member {
       text-align: center;
+      font-family: 'Courier Custom';
     }
     .member img {
       width: 100px;
       height: 100px;
       border-radius: 50%;
       object-fit: cover;
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
     }
     .member-name {
       font-weight: bold;
+      margin-bottom: 0.5rem;
     }
     .member-role {
-      font-size: 0.9rem;
+      font-size: 1rem;
       color: #ccc;
     }
   </style>
@@ -140,4 +152,25 @@
       <div class="member-role">Member</div>
     </div>
     <div class="member">
-      <img src="images/xi...
+      <img src="images/yikun.jpg" alt="Yikun Tian" />
+      <div class="member-name">Yikun Tian 田轶琨</div>
+      <div class="member-role">Member</div>
+    </div>
+    <div class="member">
+      <img src="images/yi.jpg" alt="Yi Ding" />
+      <div class="member-name">Yi Ding 丁易</div>
+      <div class="member-role">Member</div>
+    </div>
+    <div class="member">
+      <img src="images/xinran.jpg" alt="Xinran Tao" />
+      <div class="member-name">Xinran Tao 陶昕然</div>
+      <div class="member-role">Member</div>
+    </div>
+    <div class="member">
+      <img src="images/yu.jpg" alt="Yu Feng" />
+      <div class="member-name">Yu Feng 冯钰</div>
+      <div class="member-role">Member</div>
+    </div>
+  </div>
+</body>
+</html>
