@@ -1,13 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap');
-
 body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    color: white;
-    font-family: 'Fira Sans', sans-serif;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 2rem;
+  background-color: black;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .fixed-logo {
@@ -56,4 +54,46 @@ body {
     transform: translateY(30px);
     transition: opacity 1s ease, transform 1s ease;
     text-align: left;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.menu-toggle {
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 100;
+}
+
+nav {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: black;
+  width: 200px;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+nav a {
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+}
+
+nav a:hover {
+  background-color: #222;
+}
+
+nav.active {
+  display: flex;
 }
