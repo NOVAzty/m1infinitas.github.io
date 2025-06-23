@@ -5,7 +5,7 @@ window.addEventListener('scroll', () => {
     const logo = document.querySelector('.fixed-logo');
     let scrollY = window.scrollY;
 
-    if (scrollY > 10) {
+    if (scrollY > 5) {
         overlay.style.opacity = 0.5;
         content.style.opacity = 1;
         content.style.transform = 'translateY(0)';
