@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e50a83b.css",
+    "main.js": "/static/js/main.281f32e8.js",
+    "static/js/453.3fe4e4c1.chunk.js": "/static/js/453.3fe4e4c1.chunk.js",
+    "static/media/Chora1. Full Moon.png": "/static/media/Chora1. Full Moon.f0ac39f17c7df24e0df5.png",
+    "static/media/How to observe a tree.png": "/static/media/How to observe a tree.7b763b778427a5898cb5.png",
+    "static/media/TianyiZhang.png": "/static/media/TianyiZhang.4089ea005dc165620d22.png",
+    "static/media/XinanLiu.png": "/static/media/XinanLiu.1d97105fe5e3ba761b5b.png",
+    "static/media/XiangyuDeng.png": "/static/media/XiangyuDeng.c7b9dbb49f3b43bde685.png",
+    "static/media/YikunTian.png": "/static/media/YikunTian.e12761bf8a5f41a25b62.png",
+    "static/media/TianyiLiu.png": "/static/media/TianyiLiu.fb62280d7bf2f02dc106.png",
+    "static/media/TianZhang.png": "/static/media/TianZhang.b19c4904163cd906eb45.png",
+    "static/media/WenXi.png": "/static/media/WenXi.ff4cfa8a81b112054f69.png",
+    "static/media/JingwenJin.png": "/static/media/JingwenJin.d640fc3afef450e3e99c.png",
+    "static/media/LinXi.png": "/static/media/LinXi.914ccf1211b7cf854c6d.png",
+    "static/media/ZhuohanFang.png": "/static/media/ZhuohanFang.63d96fe8d9c976d34d4a.png",
+    "static/media/JiatongYao.png": "/static/media/JiatongYao.18586344174184b4a719.png",
+    "static/media/Zephyra.png": "/static/media/Zephyra.3e150b7e336336fdaacc.png",
+    "static/media/AllenWeng.png": "/static/media/AllenWeng.9dd7387fd799ff3f0c9e.png",
+    "static/media/XinranTao.png": "/static/media/XinranTao.db3d55709f3e37bcc838.png",
+    "static/media/YunhaoJia.png": "/static/media/YunhaoJia.ac365ca9d770692769a5.png",
+    "static/media/LinxuanXu.png": "/static/media/LinxuanXu.4cd90edb182631d2280f.png",
+    "static/media/SiweiZhang.png": "/static/media/SiweiZhang.261d64d04e99ef56556d.png",
+    "static/media/YungeBian.png": "/static/media/YungeBian.25204e86d1abc493dca5.png",
+    "static/media/HanjieGuan.png": "/static/media/HanjieGuan.e5b24f6413ca0b73c742.png",
+    "static/media/TiancanLiu.png": "/static/media/TiancanLiu.0188760da2be9bc85c40.png",
+    "static/media/YiDing.png": "/static/media/YiDing.5289176eff4fa0c52f7a.png",
+    "static/media/TreddZhang.png": "/static/media/TreddZhang.28adb3e59b3ff385debe.png",
+    "static/media/YuFeng.png": "/static/media/YuFeng.ad1d327c8a10c382dc18.png",
+    "static/media/HanziYu.png": "/static/media/HanziYu.e3ae53bb546668fd0f45.png",
+    "index.html": "/index.html",
+    "main.1e50a83b.css.map": "/static/css/main.1e50a83b.css.map",
+    "main.281f32e8.js.map": "/static/js/main.281f32e8.js.map",
+    "453.3fe4e4c1.chunk.js.map": "/static/js/453.3fe4e4c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e50a83b.css",
+    "static/js/main.281f32e8.js"
+  ]
+}
